@@ -116,7 +116,7 @@ directory = Directory.new
 
 # Nucleo del programma
 $prompt.say("\nLGC3shifter by Alex Isabelle, versione " + VERSION + ".")
-$prompt.say("Licenza: ?\n\n")
+$prompt.say("Licenza: GPL-3.0")
 $prompt.warn("Il programma creerà un nuovo file che sarà identico a quello originale, ma rinumerato in maniera tale da eliminare i paragrafi inesistenti.\n")
 file_1 = LGC3_file.new($prompt.select("Seleziona il file che vuoi rinumerare:", directory.return_list))
 file_1.shift
